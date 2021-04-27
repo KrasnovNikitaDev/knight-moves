@@ -1,0 +1,30 @@
+#field {
+  width: 400px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  outline: 1px solid;
+}
+
+.black {
+  background-color: #1e1d1d;
+}
+
+.horse {
+  background-color: rgba(201, 18, 18, 0.578);
+  background-image: url("horse-head-outline.svg");
+  background-size: contain;
+}
+
+.move {
+  background-color: rgba(13, 228, 13, 0.7);
+}
+/*# sourceMappingURL=style.css.map */
